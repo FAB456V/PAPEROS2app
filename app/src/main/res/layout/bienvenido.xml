@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".Bienvenido">
+
+
+
+
+    <ImageView
+        android:id="@+id/logo_mc"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/loga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bienvenido_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Bienvenido"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descuentos_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="220dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="160dp"
+        android:fontFamily="@font/comic"
+        android:text="DESCUENTOS"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/beneficios_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y BENEFICIOS"
+        android:layout_marginRight="160dp"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/comic"
+        app:layout_constraintTop_toBottomOf="@id/descuentos_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/hechos_para_ti_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HECHOS PARA TI"
+        android:layout_marginRight="160dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/comic"
+        app:layout_constraintTop_toBottomOf="@id/beneficios_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Imagen de Promoción (como un teléfono con precios) -->
+
+    <!-- Imagen de productos McDonald's -->
+
+    <!-- Botón Ordena Aquí -->
+
+
+    <ImageView
+        android:id="@+id/promocion_imagen"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="328dp"
+
+        android:src="@drawable/letras2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/productos_mc"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/loga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ordena"
+        android:layout_width="246dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#FF5733"
+    android:textColor="@android:color/white"
+    android:text="ORDENA AQUÍ"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintVertical_bias="0.98" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
