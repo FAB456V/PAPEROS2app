@@ -1,4 +1,4 @@
-package com.example.paperos2app;
+package com.example.paperos2app.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,9 @@ import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Bienvenido extends AppCompatActivity {
+import com.example.paperos2app.R;
+
+public class BienvenidoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +24,7 @@ public class Bienvenido extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Cambia el nombre del método a onClick (en minúscula)
-                Intent intent = new Intent(Bienvenido.this, Mindentificate.class);
+                Intent intent = new Intent(BienvenidoActivity.this, MindentificateActivity.class);
                 startActivity(intent);
             }
         });
