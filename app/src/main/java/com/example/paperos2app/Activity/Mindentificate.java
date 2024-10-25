@@ -1,9 +1,11 @@
-package com.example.paperos2app;
+package com.example.paperos2app.Activity;
 
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.paperos2app.R;
 
 public class Mindentificate extends AppCompatActivity {
 
