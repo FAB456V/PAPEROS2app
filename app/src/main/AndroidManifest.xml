@@ -13,10 +13,10 @@
         android:theme="@style/Theme.PAPEROS2app"
         tools:targetApi="31">
         <activity
-            android:name=".Activity.Mindentificate"
+            android:name=".Activity.MindentificateActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.Bienvenido"
+            android:name=".Activity.BienvenidoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

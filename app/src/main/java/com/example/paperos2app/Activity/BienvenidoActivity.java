@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.paperos2app.R;
 
-public class Bienvenido extends AppCompatActivity {
+public class BienvenidoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class Bienvenido extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Cambia el nombre del método a onClick (en minúscula)
-                Intent intent = new Intent(Bienvenido.this, Mindentificate.class);
+                Intent intent = new Intent(BienvenidoActivity.this, MindentificateActivity.class);
                 startActivity(intent);
             }
         });
