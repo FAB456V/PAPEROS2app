@@ -23,7 +23,7 @@ public class BienvenidoActivity extends AppCompatActivity {
         ordena.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Cambia el nombre del método a onClick (en minúscula)
+
                 Intent intent = new Intent(BienvenidoActivity.this, MindentificateActivity.class);
                 startActivity(intent);
             }

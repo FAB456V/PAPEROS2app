@@ -38,8 +38,8 @@
 
     <ImageButton
         android:id="@+id/btn_beneficios"
-        android:layout_width="185dp"
-        android:layout_height="223dp"
+        android:layout_width="189dp"
+        android:layout_height="226dp"
         android:layout_marginTop="348dp"
         android:backgroundTint="@color/transparent"
         android:contentDescription="Botón de beneficios"
@@ -48,7 +48,7 @@
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/beneficios" />
+        app:srcCompat="@drawable/user" />
 
     <TextView
         android:id="@+id/textView3"
@@ -78,7 +78,7 @@
         app:srcCompat="@drawable/comida" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
         android:layout_width="132dp"
         android:layout_height="62dp"
         android:layout_marginTop="280dp"
@@ -95,12 +95,12 @@
         android:id="@+id/textView4"
         android:layout_width="213dp"
         android:layout_height="52dp"
-        android:layout_marginTop="596dp"
+        android:layout_marginTop="656dp"
         android:fontFamily="@font/comic"
         android:text="Seleccione idioma"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintHorizontal_bias="0.656"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
