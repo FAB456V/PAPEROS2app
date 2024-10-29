@@ -1,5 +1,5 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -9,25 +9,11 @@
     tools:context=".Activity.BienvenidoActivity"
     tools:ignore="HardCodedText">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="292dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="172dp"
-        android:fontFamily="@font/comic"
-        android:text="Identificate en la App"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardCodedText" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="181dp"
         android:layout_height="114dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.452"
@@ -35,28 +21,41 @@
         app:srcCompat="@drawable/loga"
         tools:ignore="MissingConstraints" />
 
-
-    <ImageButton
-        android:id="@+id/btn_beneficios"
-        android:layout_width="185dp"
-        android:layout_height="223dp"
-        android:layout_marginTop="348dp"
-        android:backgroundTint="@color/transparent"
-        android:contentDescription="Botón de beneficios"
-        android:scaleType="fitXY"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/comic"
+        android:text="Selecciona"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.614"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/beneficios" />
+        tools:ignore="HardCodedText" />
+
+    <ImageButton
+        android:id="@+id/btn_comeraqui"
+        android:layout_width="185dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="328dp"
+        android:backgroundTint="@color/transparent"
+        android:contentDescription="Boton de comer aqui"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bandejacomida" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="161dp"
         android:layout_height="59dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="260dp"
         android:fontFamily="@font/comic"
-        android:text="Logearse o Registrarse"
+        android:text="Para comer aquí"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.14"
@@ -64,43 +63,42 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/btn_comid"
+        android:id="@+id/btn_parallevar"
         android:layout_width="193dp"
         android:layout_height="219dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="332dp"
         android:backgroundTint="@color/transparent"
-        android:contentDescription="Botón de beneficios"
+        android:contentDescription="Botón de orden para llevar"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/comida" />
+        app:srcCompat="@drawable/bolsacomida" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
         android:layout_width="132dp"
         android:layout_height="62dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="264dp"
         android:fontFamily="@font/comic"
-        android:text="Continuar sin cuenta"
+        android:text="Para llevar"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="0.942"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="213dp"
         android:layout_height="52dp"
-        android:layout_marginTop="596dp"
+        android:layout_marginTop="572dp"
         android:fontFamily="@font/comic"
         android:text="Seleccione idioma"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintHorizontal_bias="0.661"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -124,7 +122,7 @@
         android:id="@+id/btn_Español"
         android:layout_width="147dp"
         android:layout_height="49dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="36dp"
         android:backgroundTint="#FB1121"
         android:fontFamily="@font/comic"
         android:text="Español"
@@ -134,5 +132,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.931" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
