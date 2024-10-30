@@ -51,7 +51,7 @@ android {
 }
 
 dependencies {
-
+    implementation ("com.microsoft.sqlserver:mssql-jdbc:12.2.0.jre11")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
