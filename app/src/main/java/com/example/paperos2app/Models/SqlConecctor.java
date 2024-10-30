@@ -16,7 +16,7 @@ public class SqlConecctor {
     protected static String port = "1433";
     protected static String db = "db_aaec8e_paperosbd001";
     protected static String un = "db_aaec8e_paperosbd001_admin";
-    protected static String password = "paperosbd001";
+    protected static String password = "@fabian456";
 
     public Connection CONN() {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
