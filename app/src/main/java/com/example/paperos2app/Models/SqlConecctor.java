@@ -25,7 +25,7 @@ public class SqlConecctor {
         Connection conn = null;
         try {
             Class.forName(classes);
-            // La URL de conexión con cifrado obligatorio
+
             String conUrl = "jdbc:jtds:sqlserver://" + ip + ":" + port + ";databaseName=" + db + ";encrypt=true;trustServerCertificate=true;";
             conn = DriverManager.getConnection(conUrl, un, password);
         } catch (ClassNotFoundException | SQLException e) {

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <!-- Logo o Imagen Superior -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/loga"
+        android:contentDescription="Logo" />
+
+    <!-- Título de Login -->
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Iniciar Sesión"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Campo de Texto para el Email -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/loginTitle"
+        android:layout_marginTop="30dp"
+        android:hint="Nombre de Usuario"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:drawablePadding="10dp"
+        android:textColor="#333333"
+        android:textColorHint="#A8A8A8"
+        android:fontFamily="sans-serif" />
+
+    <!-- Campo de Texto para la Contraseña -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:drawablePadding="10dp"
+        android:textColor="#333333"
+        android:textColorHint="#A8A8A8"
+        android:fontFamily="sans-serif" />
+
+    <!-- Botón de Iniciar Sesión -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#3A82F7"
+        android:text="Iniciar Sesión"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Texto de Olvidé mi Contraseña -->
+
+    <!-- Línea de Separación -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#E0E0E0" />
+
+    <!-- Texto de Registro -->
+    <Button
+        android:id="@+id/registerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="518dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="No tienes cuenta?Refistrate"
+        android:textColor="#3A82F7"
+        android:textSize="14sp" />
+
+</RelativeLayout>
